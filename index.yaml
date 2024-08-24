@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  vault-actions:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2024-08-24T21:59:18.219830009Z"
+    description: Helper chart to create Vault/OpenBao roles and policies
+    digest: 4db274f4f4f919d92922fb4fe09518c91f6a2d5ef51b3c72cc234c6a75678b18
+    name: vault-actions
+    type: application
+    urls:
+    - https://github.com/jr200/vault-actions/releases/download/vault-actions-0.1.0/vault-actions-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-08-24T21:59:18.219850998Z"
