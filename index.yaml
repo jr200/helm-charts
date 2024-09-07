@@ -1,9 +1,25 @@
 apiVersion: v1
 entries:
+  nats-iam-broker:
+  - apiVersion: v2
+    appVersion: v0.1.5
+    created: "2024-09-07T10:53:09.636789644Z"
+    dependencies:
+    - condition: vault-actions.enabled
+      name: vault-actions
+      repository: https://jr200.github.io/helm-charts
+      version: ~0.1.0
+    description: NATS IAM Broker Chart
+    digest: df4c2cb168c2bc2e1624be301de3a3a2d60fb1b6436b867e41b6e4d63738ab2f
+    name: nats-iam-broker
+    type: application
+    urls:
+    - charts/nats-iam-broker-0.1.0.tgz
+    version: 0.1.0
   vault-actions:
   - apiVersion: v2
     appVersion: v0.1.1
-    created: "2024-09-07T10:01:52.448433492Z"
+    created: "2024-09-07T10:53:09.637461764Z"
     description: Helper chart to create Vault/OpenBao roles and policies
     digest: c513b1a3bfca2ebb4f2a0282942dd4f4b192d33b75c5baa3f8c6ef1529e78a8c
     name: vault-actions
@@ -11,4 +27,4 @@ entries:
     urls:
     - charts/vault-actions-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-07T10:01:52.447819962Z"
+generated: "2024-09-07T10:53:09.635168281Z"
