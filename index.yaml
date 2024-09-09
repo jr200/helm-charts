@@ -3,7 +3,7 @@ entries:
   nats-iam-broker:
   - apiVersion: v2
     appVersion: v0.1.5
-    created: "2024-09-07T10:53:09.636789644Z"
+    created: "2024-09-09T09:13:23.911469117Z"
     dependencies:
     - condition: vault-actions.enabled
       name: vault-actions
@@ -16,10 +16,27 @@ entries:
     urls:
     - charts/nats-iam-broker-0.1.0.tgz
     version: 0.1.0
+  nats-skeleton-spa:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-09-09T09:13:23.912186953Z"
+    dependencies:
+    - condition: vault-actions.enabled
+      name: vault-actions
+      repository: https://jr200.github.io/helm-charts
+      version: ~0.1.0
+    description: A chart for react single-page-applications that communicates over
+      NATS
+    digest: 17a701a1ee0a7ee42117d1413d9dfbe799309ffb64f8d3462c059f29cbe51744
+    name: nats-skeleton-spa
+    type: application
+    urls:
+    - charts/nats-skeleton-spa-0.1.0.tgz
+    version: 0.1.0
   vault-actions:
   - apiVersion: v2
     appVersion: v0.1.1
-    created: "2024-09-07T10:53:09.637461764Z"
+    created: "2024-09-09T09:13:23.912642398Z"
     description: Helper chart to create Vault/OpenBao roles and policies
     digest: c513b1a3bfca2ebb4f2a0282942dd4f4b192d33b75c5baa3f8c6ef1529e78a8c
     name: vault-actions
@@ -27,4 +44,4 @@ entries:
     urls:
     - charts/vault-actions-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-07T10:53:09.635168281Z"
+generated: "2024-09-09T09:13:23.910367761Z"
