@@ -3,7 +3,7 @@ entries:
   nats-iam-broker:
   - apiVersion: v2
     appVersion: v0.1.5
-    created: "2024-09-09T09:13:23.911469117Z"
+    created: "2024-09-12T20:49:42.65648648Z"
     dependencies:
     - condition: vault-actions.enabled
       name: vault-actions
@@ -19,7 +19,7 @@ entries:
   nats-skeleton-spa:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-09-09T09:13:23.912186953Z"
+    created: "2024-09-12T20:49:42.657235814Z"
     dependencies:
     - condition: vault-actions.enabled
       name: vault-actions
@@ -33,10 +33,21 @@ entries:
     urls:
     - charts/nats-skeleton-spa-0.1.0.tgz
     version: 0.1.0
+  opencomponents-registry:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2024-09-12T20:49:42.65760701Z"
+    description: A Helm chart for opencomponents-registry
+    digest: f1842a4802b906abae011d49b59039de82f4406fe03c224cadf3330ba1a0e4d2
+    name: opencomponents-registry
+    type: application
+    urls:
+    - charts/opencomponents-registry-0.1.0.tgz
+    version: 0.1.0
   vault-actions:
   - apiVersion: v2
     appVersion: v0.1.1
-    created: "2024-09-09T09:13:23.912642398Z"
+    created: "2024-09-12T20:49:42.657901572Z"
     description: Helper chart to create Vault/OpenBao roles and policies
     digest: c513b1a3bfca2ebb4f2a0282942dd4f4b192d33b75c5baa3f8c6ef1529e78a8c
     name: vault-actions
@@ -44,4 +55,4 @@ entries:
     urls:
     - charts/vault-actions-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-09T09:13:23.910367761Z"
+generated: "2024-09-12T20:49:42.65530182Z"
