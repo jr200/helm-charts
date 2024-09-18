@@ -3,7 +3,7 @@ entries:
   nats-iam-broker:
   - apiVersion: v2
     appVersion: v0.1.5
-    created: "2024-09-12T20:49:42.65648648Z"
+    created: "2024-09-18T10:12:15.885724183Z"
     dependencies:
     - condition: vault-actions.enabled
       name: vault-actions
@@ -16,10 +16,26 @@ entries:
     urls:
     - charts/nats-iam-broker-0.1.0.tgz
     version: 0.1.0
+  nats-skeleton-nextjs:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-09-18T10:12:15.886433719Z"
+    dependencies:
+    - condition: vault-actions.enabled
+      name: vault-actions
+      repository: https://jr200.github.io/helm-charts
+      version: ~0.1.0
+    description: A chart for nextjs that communicates over NATS
+    digest: 048acea402a0042bba44d30b4d4ac7aa0bfa9c2799bdd4e84aee0353b7614d2d
+    name: nats-skeleton-nextjs
+    type: application
+    urls:
+    - charts/nats-skeleton-nextjs-0.1.0.tgz
+    version: 0.1.0
   nats-skeleton-spa:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-09-12T20:49:42.657235814Z"
+    created: "2024-09-18T10:12:15.887955474Z"
     dependencies:
     - condition: vault-actions.enabled
       name: vault-actions
@@ -36,7 +52,7 @@ entries:
   opencomponents-registry:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2024-09-12T20:49:42.65760701Z"
+    created: "2024-09-18T10:12:15.888327284Z"
     description: A Helm chart for opencomponents-registry
     digest: f1842a4802b906abae011d49b59039de82f4406fe03c224cadf3330ba1a0e4d2
     name: opencomponents-registry
@@ -47,7 +63,7 @@ entries:
   vault-actions:
   - apiVersion: v2
     appVersion: v0.1.1
-    created: "2024-09-12T20:49:42.657901572Z"
+    created: "2024-09-18T10:12:15.888639081Z"
     description: Helper chart to create Vault/OpenBao roles and policies
     digest: c513b1a3bfca2ebb4f2a0282942dd4f4b192d33b75c5baa3f8c6ef1529e78a8c
     name: vault-actions
@@ -55,4 +71,4 @@ entries:
     urls:
     - charts/vault-actions-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-12T20:49:42.65530182Z"
+generated: "2024-09-18T10:12:15.884485922Z"
