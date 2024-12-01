@@ -2,15 +2,15 @@ apiVersion: v1
 entries:
   nats-iam-broker:
   - apiVersion: v2
-    appVersion: v0.1.6
-    created: "2024-09-18T22:14:19.811617207Z"
+    appVersion: v0.1.7
+    created: "2024-12-01T13:15:49.314645548Z"
     dependencies:
     - condition: vault-actions.enabled
       name: vault-actions
       repository: https://jr200.github.io/helm-charts
       version: ~0.1.0
     description: NATS IAM Broker Chart
-    digest: f6cb1c25f7c7730634045ccbd184ae20138bb874fe0cdc0b6fd0d0f9d5b489a7
+    digest: 790d0dea2f1d01cce1dc776f8ff0766ebc859681755a9d028db4405b19330e97
     name: nats-iam-broker
     type: application
     urls:
@@ -19,7 +19,7 @@ entries:
   nats-skeleton-nextjs:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2024-09-18T22:14:19.812373163Z"
+    created: "2024-12-01T13:15:49.315375133Z"
     dependencies:
     - condition: vault-actions.enabled
       name: vault-actions
@@ -35,7 +35,7 @@ entries:
   nats-skeleton-spa:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-09-18T22:14:19.81310307Z"
+    created: "2024-12-01T13:15:49.316060255Z"
     dependencies:
     - condition: vault-actions.enabled
       name: vault-actions
@@ -52,7 +52,7 @@ entries:
   opencomponents-registry:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2024-09-18T22:14:19.813463982Z"
+    created: "2024-12-01T13:15:49.316426761Z"
     description: A Helm chart for opencomponents-registry
     digest: f1842a4802b906abae011d49b59039de82f4406fe03c224cadf3330ba1a0e4d2
     name: opencomponents-registry
@@ -63,7 +63,7 @@ entries:
   vault-actions:
   - apiVersion: v2
     appVersion: v0.1.1
-    created: "2024-09-18T22:14:19.813753981Z"
+    created: "2024-12-01T13:15:49.316724218Z"
     description: Helper chart to create Vault/OpenBao roles and policies
     digest: c513b1a3bfca2ebb4f2a0282942dd4f4b192d33b75c5baa3f8c6ef1529e78a8c
     name: vault-actions
@@ -71,4 +71,4 @@ entries:
     urls:
     - charts/vault-actions-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-18T22:14:19.81048999Z"
+generated: "2024-12-01T13:15:49.31351404Z"
