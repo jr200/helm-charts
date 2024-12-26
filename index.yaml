@@ -3,14 +3,14 @@ entries:
   nats-iam-broker:
   - apiVersion: v2
     appVersion: v0.1.7
-    created: "2024-12-26T13:17:05.214456715Z"
+    created: "2024-12-26T13:35:07.998407055Z"
     dependencies:
     - condition: vault-actions.enabled
       name: vault-actions
       repository: https://jr200.github.io/helm-charts
       version: ~0.1.0
     description: NATS IAM Broker Chart
-    digest: 9f92c086651c7468c5755c959ac01954e00e66fee3ceaf215092be3f1e6feb41
+    digest: 5cb7e474aa401374c5b4253373d4f10995111ca5e3b78fd6b637cd1fb076013f
     name: nats-iam-broker
     type: application
     urls:
@@ -19,7 +19,7 @@ entries:
   nats-skeleton-nextjs:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2024-12-26T13:17:05.215292144Z"
+    created: "2024-12-26T13:35:07.999156725Z"
     dependencies:
     - condition: vault-actions.enabled
       name: vault-actions
@@ -35,7 +35,7 @@ entries:
   nats-skeleton-spa:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-12-26T13:17:05.216027916Z"
+    created: "2024-12-26T13:35:07.999847086Z"
     dependencies:
     - condition: vault-actions.enabled
       name: vault-actions
@@ -52,7 +52,7 @@ entries:
   opencomponents-registry:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2024-12-26T13:17:05.216417848Z"
+    created: "2024-12-26T13:35:08.000220483Z"
     description: A Helm chart for opencomponents-registry
     digest: f1842a4802b906abae011d49b59039de82f4406fe03c224cadf3330ba1a0e4d2
     name: opencomponents-registry
@@ -63,7 +63,7 @@ entries:
   vault-actions:
   - apiVersion: v2
     appVersion: v0.1.1
-    created: "2024-12-26T13:17:05.216733621Z"
+    created: "2024-12-26T13:35:08.000526156Z"
     description: Helper chart to create Vault/OpenBao roles and policies
     digest: c513b1a3bfca2ebb4f2a0282942dd4f4b192d33b75c5baa3f8c6ef1529e78a8c
     name: vault-actions
@@ -71,4 +71,4 @@ entries:
     urls:
     - charts/vault-actions-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-26T13:17:05.213322535Z"
+generated: "2024-12-26T13:35:07.997305498Z"
