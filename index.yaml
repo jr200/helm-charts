@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   nats-iam-broker:
   - apiVersion: v2
+    appVersion: v0.4.1
+    created: "2025-06-11T14:53:05.309243783Z"
+    description: NATS IAM Broker Chart
+    digest: b8301dc8e02efc5b9194a5be594e5670badf17c93d74c76c574381d8c40a11db
+    name: nats-iam-broker
+    type: application
+    urls:
+    - charts/nats-iam-broker-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: v0.1.9
-    created: "2025-06-07T19:50:39.448441233Z"
+    created: "2025-06-11T14:53:05.308776944Z"
     dependencies:
     - condition: vault-actions.enabled
       name: vault-actions
@@ -19,7 +29,7 @@ entries:
   nats-skeleton-nextjs:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2025-06-07T19:50:39.449231126Z"
+    created: "2025-06-11T14:53:05.310020778Z"
     dependencies:
     - condition: vault-actions.enabled
       name: vault-actions
@@ -35,7 +45,7 @@ entries:
   nats-skeleton-spa:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-06-07T19:50:39.449953339Z"
+    created: "2025-06-11T14:53:05.310996477Z"
     dependencies:
     - condition: vault-actions.enabled
       name: vault-actions
@@ -52,7 +62,7 @@ entries:
   opencomponents-registry:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2025-06-07T19:50:39.450431882Z"
+    created: "2025-06-11T14:53:05.311758979Z"
     description: A Helm chart for opencomponents-registry
     digest: f1842a4802b906abae011d49b59039de82f4406fe03c224cadf3330ba1a0e4d2
     name: opencomponents-registry
@@ -63,7 +73,7 @@ entries:
   vault-actions:
   - apiVersion: v2
     appVersion: v0.1.1
-    created: "2025-06-07T19:50:39.451248746Z"
+    created: "2025-06-11T14:53:05.312090033Z"
     description: Helper chart to create Vault/OpenBao roles and policies
     digest: c513b1a3bfca2ebb4f2a0282942dd4f4b192d33b75c5baa3f8c6ef1529e78a8c
     name: vault-actions
@@ -71,4 +81,4 @@ entries:
     urls:
     - charts/vault-actions-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-07T19:50:39.447316624Z"
+generated: "2025-06-11T14:53:05.307700254Z"
