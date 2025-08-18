@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   nats-iam-broker:
   - apiVersion: v2
+    appVersion: v0.5.2
+    created: "2025-08-18T07:43:19.965132988Z"
+    description: NATS IAM Broker Chart
+    digest: 92bf2ff4181ac092743a9b10648707a247f3e3fd18422e00b95549425493c177
+    name: nats-iam-broker
+    type: application
+    urls:
+    - charts/nats-iam-broker-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: v0.5.1
-    created: "2025-08-14T15:28:21.234430502Z"
+    created: "2025-08-18T07:43:19.964682914Z"
     description: NATS IAM Broker Chart
     digest: 029b216a2c054870792fe7cdc653373e4ac02769b364df3e50d9b3b622d6c4a3
     name: nats-iam-broker
@@ -13,7 +23,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: v0.4.1
-    created: "2025-08-14T15:28:21.23396481Z"
+    created: "2025-08-18T07:43:19.96423787Z"
     description: NATS IAM Broker Chart
     digest: b8301dc8e02efc5b9194a5be594e5670badf17c93d74c76c574381d8c40a11db
     name: nats-iam-broker
@@ -23,7 +33,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: v0.1.9
-    created: "2025-08-14T15:28:21.23348452Z"
+    created: "2025-08-18T07:43:19.963750076Z"
     dependencies:
     - condition: vault-actions.enabled
       name: vault-actions
@@ -39,7 +49,7 @@ entries:
   nats-skeleton-nextjs:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2025-08-14T15:28:21.235135222Z"
+    created: "2025-08-18T07:43:19.965861753Z"
     dependencies:
     - condition: vault-actions.enabled
       name: vault-actions
@@ -55,7 +65,7 @@ entries:
   nats-skeleton-spa:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-08-14T15:28:21.236242192Z"
+    created: "2025-08-18T07:43:19.966570612Z"
     dependencies:
     - condition: vault-actions.enabled
       name: vault-actions
@@ -72,7 +82,7 @@ entries:
   nats-time-server:
   - apiVersion: v2
     appVersion: v0.0.3
-    created: "2025-08-14T15:28:21.236897272Z"
+    created: "2025-08-18T07:43:19.966842211Z"
     description: A Helm chart for Kubernetes
     digest: 1a738baf0c46eb0b18dff3aaaca5c29f16f6093ab73754ddf2519bbab753feb0
     name: nats-time-server
@@ -83,7 +93,7 @@ entries:
   opencomponents-registry:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2025-08-14T15:28:21.237259571Z"
+    created: "2025-08-18T07:43:19.967245427Z"
     description: A Helm chart for opencomponents-registry
     digest: f1842a4802b906abae011d49b59039de82f4406fe03c224cadf3330ba1a0e4d2
     name: opencomponents-registry
@@ -94,7 +104,7 @@ entries:
   vault-actions:
   - apiVersion: v2
     appVersion: v0.1.1
-    created: "2025-08-14T15:28:21.237573639Z"
+    created: "2025-08-18T07:43:19.967536883Z"
     description: Helper chart to create Vault/OpenBao roles and policies
     digest: c513b1a3bfca2ebb4f2a0282942dd4f4b192d33b75c5baa3f8c6ef1529e78a8c
     name: vault-actions
@@ -102,4 +112,4 @@ entries:
     urls:
     - charts/vault-actions-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-14T15:28:21.232365474Z"
+generated: "2025-08-18T07:43:19.962602585Z"
