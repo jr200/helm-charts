@@ -3,9 +3,9 @@ entries:
   nats-iam-broker:
   - apiVersion: v2
     appVersion: v1.3.0
-    created: "2026-04-11T15:54:58.030736248Z"
+    created: "2026-04-11T16:02:14.521910542Z"
     description: NATS IAM Broker Chart
-    digest: eb49fecab5452b23501421ef39da067a55f6006340bedc8b0046be5e787a74bf
+    digest: 8c2f10a3bd635d77987fa27d4675f5aa49399612e491635f7777f90159c088d3
     name: nats-iam-broker
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: v1.0.0
-    created: "2026-04-11T15:54:58.030154137Z"
+    created: "2026-04-11T16:02:14.52125465Z"
     description: NATS IAM Broker Chart
     digest: d95b158508dad385ac5c90d87d9f3d52232747f50fef5454d1fe76fb163ec16f
     name: nats-iam-broker
@@ -23,7 +23,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: v1.0.0
-    created: "2026-04-11T15:54:58.029511357Z"
+    created: "2026-04-11T16:02:14.520627872Z"
     description: NATS IAM Broker Chart
     digest: 080221b63dc0d8f6d41cad9397f852588898f0e2daa28f0d4f19fbe95e80b3a7
     name: nats-iam-broker
@@ -33,7 +33,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: v0.7.0
-    created: "2026-04-11T15:54:58.028867365Z"
+    created: "2026-04-11T16:02:14.52002587Z"
     description: NATS IAM Broker Chart
     digest: ef5c08dcc562778be7034b889ef412d22a38e23c7e320d9881e4bc0d017a1534
     name: nats-iam-broker
@@ -43,7 +43,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: v0.5.1
-    created: "2026-04-11T15:54:58.02830915Z"
+    created: "2026-04-11T16:02:14.519471087Z"
     description: NATS IAM Broker Chart
     digest: 029b216a2c054870792fe7cdc653373e4ac02769b364df3e50d9b3b622d6c4a3
     name: nats-iam-broker
@@ -53,7 +53,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: v0.4.1
-    created: "2026-04-11T15:54:58.02727787Z"
+    created: "2026-04-11T16:02:14.518973359Z"
     description: NATS IAM Broker Chart
     digest: b8301dc8e02efc5b9194a5be594e5670badf17c93d74c76c574381d8c40a11db
     name: nats-iam-broker
@@ -63,7 +63,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: v0.1.9
-    created: "2026-04-11T15:54:58.026542983Z"
+    created: "2026-04-11T16:02:14.518269758Z"
     dependencies:
     - condition: vault-actions.enabled
       name: vault-actions
@@ -79,7 +79,7 @@ entries:
   nats-skeleton-nextjs:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2026-04-11T15:54:58.031522801Z"
+    created: "2026-04-11T16:02:14.522627989Z"
     dependencies:
     - condition: vault-actions.enabled
       name: vault-actions
@@ -95,7 +95,7 @@ entries:
   nats-skeleton-spa:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-04-11T15:54:58.032235645Z"
+    created: "2026-04-11T16:02:14.523425875Z"
     dependencies:
     - condition: vault-actions.enabled
       name: vault-actions
@@ -112,7 +112,7 @@ entries:
   nats-time-server:
   - apiVersion: v2
     appVersion: v0.0.3
-    created: "2026-04-11T15:54:58.032490582Z"
+    created: "2026-04-11T16:02:14.523865284Z"
     description: A Helm chart for Kubernetes
     digest: 1a738baf0c46eb0b18dff3aaaca5c29f16f6093ab73754ddf2519bbab753feb0
     name: nats-time-server
@@ -123,7 +123,7 @@ entries:
   opencomponents-registry:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2026-04-11T15:54:58.03285506Z"
+    created: "2026-04-11T16:02:14.524470171Z"
     description: A Helm chart for opencomponents-registry
     digest: f1842a4802b906abae011d49b59039de82f4406fe03c224cadf3330ba1a0e4d2
     name: opencomponents-registry
@@ -134,7 +134,7 @@ entries:
   vault-actions:
   - apiVersion: v2
     appVersion: v0.1.1
-    created: "2026-04-11T15:54:58.033216074Z"
+    created: "2026-04-11T16:02:14.525331536Z"
     description: Helper chart to create Vault/OpenBao roles and policies
     digest: c513b1a3bfca2ebb4f2a0282942dd4f4b192d33b75c5baa3f8c6ef1529e78a8c
     name: vault-actions
@@ -142,4 +142,4 @@ entries:
     urls:
     - charts/vault-actions-0.1.0.tgz
     version: 0.1.0
-generated: "2026-04-11T15:54:58.025342559Z"
+generated: "2026-04-11T16:02:14.516082786Z"
